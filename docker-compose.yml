@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    container_name: magic_link_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./data:/app/data
+    env_file:
+      - .env
+    restart: unless-stopped

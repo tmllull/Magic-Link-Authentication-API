@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-jose[cryptography]
+python-multipart
+python-dotenv
+sqlalchemy
+jinja2
+python-jose
+PyJWT
+pydantic[email]
